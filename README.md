@@ -3,6 +3,20 @@
 ## Description
 ## Objectives
 ## Features
+
+The feature of thsi project is:
+
+- Dataset Preprocessing
+- Data Augmentation
+- CNN Image Classification
+- Model Training
+- Model Evaluation
+- Accuracy and Loss Visualization
+- Confusion Matrix
+- Classification Report
+- Prediction on a custom images
+- Saved trained model (model.h5)
+  
 ## Project Structure
 
 The following is the project structure
@@ -96,5 +110,24 @@ The following is the project structure
    
 ## Model Architecture
 ## Result
+
+Following  the training process, the model achieved the following performance:
+
+### Training Process
+
+|           Metric          |    Value    |
+|---------------------------|-------------|
+| Final Training Loss       |    0.1575   |
+| Final Training Accuracy   |    0.9525   |
+| Final Validation Loss     |    0.2471   |
+| Final Validation Accuracy |    0.9057   |
+
+### Model Evaluation
+
+|    Dataset   |  Accuracy  |   Loss   |
+|--------------|------------|----------|
+| Training Set |   0.9628   | 0.0925   |
+| Testing Set  |   0.9563   | 0.1047   |
+
 ## Metric Evaluation
 ## Evaluation
