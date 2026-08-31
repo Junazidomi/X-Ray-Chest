@@ -44,6 +44,56 @@ The following is the project structure
 └──requirements.txt
 ```
 ## Installation
+
+1. Clone Repository
+
+   ```
+      git clone https://github.com/Junazidomi/X-Ray-Chest.git
+      cd X-Ray-Chest
+   ```
+   
+2. Create Virtual Envirotment (Optional)
+
+   Windows
+
+   ```
+      python -m venv venv
+      venv\Scripts\activate
+   ```
+
+   Linux/MacOS
+
+    ```
+      python3 -m venv venv
+      source venv/bin/activate
+    ```
+    
+3. Install Dependencies
+
+   ```
+     pip install -r requirements.txt
+   ```
+   
+4. Configure Kaggle API
+
+   Download the kaggle.json from your Kaggle Account, then save it to the following folder:
+
+   ```
+     API/
+     └── kaggle.json
+   ```
+   
+5. Run The Notebook
+   
+   Open `Notebook.ipynb` using Jupyter Notebook, JupyterLab, or Visual Studio Code, then run all cells sequentially.
+
+   The notebook will automatically:
+    
+    - Download the dataset from Kaggle.
+    - Preprocess and augment the data.
+    - Build and train the CNN model.
+    - Evaluate the trained model.
+   
 ## Model Architecture
 ## Result
 ## Metric Evaluation
