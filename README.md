@@ -129,5 +129,29 @@ Following  the training process, the model achieved the following performance:
 | Training Set |   0.9628   | 0.0925   |
 | Testing Set  |   0.9563   | 0.1047   |
 
+### Classification Report
+
+|    Class   |    precision    |    recall   |   f1-score   |
+|------------|-----------------|-------------|--------------|
+| NORMAL     |       0.93      |     0.98    |     0.96     |
+| PNEUMONIA  |       0.98      |     0.93    |     0.96     |
+
 ## Metric Evaluation
+
+Below is a visualization of the results:
+
+1. Accuracy Plot
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Accuracy%20Plot.png" width="350"/>
+   
+2. Loss Plot
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Loss%20Plot.png" width="350"/>
+   
+3. Confusion Matrix
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Confusion%20Matrix.png" width="350"/>
+5. Sample Predictions
+   - Normal Prediction
+   - Pneumonia Prediction
 ## Evaluation
