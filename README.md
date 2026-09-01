@@ -154,8 +154,9 @@ Below is a visualization of the results:
 5. Sample Predictions
    - Normal Prediction 1
 
-     <img src="" width="350"/>
+     <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Normal_Prediction_1.png" width="350"/>
    - Normal Prediction 2
+     
    - Pneumonia Prediction 1
    - Pneumonia Prediction 2
    - Pneumonia Prediction 3
