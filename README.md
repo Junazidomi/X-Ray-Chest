@@ -152,6 +152,14 @@ Below is a visualization of the results:
 
    <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Confusion%20Matrix.png" width="350"/>
 5. Sample Predictions
-   - Normal Prediction
+   - Normal Prediction 1
+
+     <img src="" width="350"/>
+   - Normal Prediction 2
+   - Pneumonia Prediction 1
+   - Pneumonia Prediction 2
+   - Pneumonia Prediction 3
+     
+     
    - Pneumonia Prediction
 ## Evaluation
