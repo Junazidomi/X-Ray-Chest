@@ -109,6 +109,71 @@ The following is the project structure
     - Evaluate the trained model.
    
 ## Model Architecture
+
+The architecture model in this project is
+
+```
+                 Input (150×150×3)
+                          │
+                          ▼
+                  Conv2D (32, 3×3)
+                          │
+                  Conv2D (32, 3×3)
+                          │
+                  BatchNormalization
+                          │
+                     MaxPooling2D
+                          │
+                     Dropout (0.3)
+                          │
+                          ▼
+                  Conv2D (64, 5×5)
+                          │
+                  Conv2D (64, 5×5)
+                          │
+                  BatchNormalization
+                          │
+                    MaxPooling2D
+                          │
+                    Dropout (0.3)
+                          │
+                          ▼
+                  Conv2D (128, 7×7)
+                          │
+                  Conv2D (128, 7×7)
+                          │
+                  BatchNormalization
+                          │
+                     MaxPooling2D
+                          │
+                     Dropout (0.3)
+                          │
+                          ▼
+                       Flatten
+                          │
+                     Dense (256)
+                          │
+                    Dropout (0.3)
+                          │
+                     Dense (128)
+                          │
+                    Dropout (0.5)
+                          │
+                      Dense (1)
+                          │
+                       Sigmoid
+
+```
+
+### Training Configuration
+
+|      Parameter      |         Value       |
+|---------------------|---------------------|
+| Activation Function | Relu, Softmax       |
+| Optimizer           | RMSProp             |
+| Loss Function       | Binary Crossentropy |
+| Evaluation Metric   | Accuracy            |
+
 ## Result
 
 Following  the training process, the model achieved the following performance:
@@ -155,12 +220,21 @@ Below is a visualization of the results:
    - Normal Prediction 1
 
      <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Normal_Prediction_1.png" width="350"/>
+     
    - Normal Prediction 2
+
+     <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Normal_Prediction_2.png" width="350"/>
      
    - Pneumonia Prediction 1
+
+     <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Pneumonia_Prediction_1.png" width="350"/>
+     
    - Pneumonia Prediction 2
+
+     <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Pneumonia_Prediction_2.png" width="350"/>
+     
    - Pneumonia Prediction 3
+
+     <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Pneumonia_Prediction_3.png" width="350"/>
      
-     
-   - Pneumonia Prediction
 ## Evaluation
