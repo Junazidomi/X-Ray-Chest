@@ -2,6 +2,14 @@
 
 ## Description
 ## Objectives
+
+The objective of this project is
+- Develop a CNN model to classify X-Ray Images of Pneumonia and Normal conditions.
+- Perform data preprocessing and augmentation to make the model more powerful.
+- Train the model with Tensorflow/Keras.
+- Evaluate the model's performance using various evaluation metrics.
+- Make predictions on new images that the model has never seen before
+  
 ## Features
 
 The feature of thsi project is:
