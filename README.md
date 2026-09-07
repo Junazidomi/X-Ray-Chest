@@ -1,6 +1,11 @@
 # X-RAY Chest Prediction
 
 ## Description
+
+As technology advances quickly, the need for fast and efficient processes continues to grow, particularly in the healthcare sector. X-Ray prediction is an artificial intelligence-based feature designed to assist with analysis and prediction based on X-ray images. This system utilizes a CNN (Convolutional Neural Network) algorithm to recognize patterns and charateristics in radiographic images and classify them into two categories: normal lungs and lungs showing signs of pneumonia.
+
+This feature aims to support the screening and analysis of X-ray images more quickly and efficiently. The prediction results serve as supporting information and are not intended to replace diagnoes or medical decisions made by healthcare professionals.
+
 ## Objectives
 
 The objective of this project is
