@@ -251,3 +251,5 @@ Below is a visualization of the results:
      <img src="https://raw.githubusercontent.com/Junazidomi/X-Ray-Chest/refs/heads/main/Output/Pneumonia_Prediction_3.png" width="350"/>
      
 ## Evaluation
+
+Based on the evaluation of the CNN model for classifying normal and pneumonia lung X-rays on the test dataset, an accuracy 0.8563 or 95.63%, was obtained. This indicates that the model performs well in predicting new data. Additionally, based on the classification report, it can be concluded that the model is able to distinguish the two classes effectively.
